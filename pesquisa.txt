@@ -1,0 +1,4 @@
+Uma VPN, ou Rede Privada Virtual (Virtual Private Network), é uma tecnologia que cria uma conexão segura e encriptada entre o seu dispositivo e 
+a internet, protegendo a sua privacidade e anonimato online. 
+Ao utilizar uma VPN, o seu tráfego de internet é redirecionado através de um servidor seguro, escondendo o seu endereço IP real e criptografando 
+os dados trocados. 
