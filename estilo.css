@@ -36,8 +36,12 @@ header {
     background-color: #1b1440;
 }
 
+header img {
+    width: 250px;
+}
+
 header h1 {
-    font-size: 35px;
+    font-size: 60px;
     margin-bottom: 10px;
     color: rgb(247, 226, 40);
 }
@@ -55,26 +59,6 @@ header h1 {
     display: inline-block;
 }
 
-#conteudos, #atuacao, #conexoes {
-    background-color: blanchedalmond; 
-    color: black;
-}
-
-#atuacao #cards, #conexoes #cards {
-    color: white;
-}
-
-#conteudos #butao {
-    background-color: #3f328f; 
-    color: white;
-    width: 150px;
-}
-
-#categorias {
-    font-size: 25px;
-    margin-bottom: 30px;
-}
-
 #cards {
     display: flex;
     flex-wrap: wrap;
@@ -84,10 +68,53 @@ header h1 {
 }
 
 #card {
-    background-color: #3f328f;
+    background-color: rgb(63, 50, 143);
     padding: 20px;
     width: 300px;
     border-radius: 10px;
+}
+
+#conteudos, #atuacao, #conexoes {
+    background-color: blanchedalmond; 
+    color: black;
+}
+
+#atuacao #cards, #conexoes #cards {
+    color: white;
+}
+
+#oquee #card, #beneficios #card {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+#conteudos #butao {
+    background-color: rgb(63, 50, 143); 
+    color: white;
+    width: 150px;
+}
+
+#conteudos-linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#botoes-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#conteudos img, #agradecimentos img {
+    width: 250px;
+}
+
+#categorias {
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
 footer {
