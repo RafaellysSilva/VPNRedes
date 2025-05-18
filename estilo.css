@@ -55,6 +55,21 @@ header h1 {
     display: inline-block;
 }
 
+#conteudos, #atuacao, #conexoes {
+    background-color: blanchedalmond; 
+    color: black;
+}
+
+#atuacao #cards, #conexoes #cards {
+    color: white;
+}
+
+#conteudos #butao {
+    background-color: #3f328f; 
+    color: white;
+    width: 150px;
+}
+
 #categorias {
     font-size: 25px;
     margin-bottom: 30px;
