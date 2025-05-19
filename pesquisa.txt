@@ -6,4 +6,4 @@ os dados trocados.
 Uma VPN oculta seu endereço IP deixando que a rede redirecione você por meio de um servidor remoto especialmente configurado executado por um host 
 VPN. Isso significa que se você navegar online com uma VPN, o servidor VPN se tornará a fonte de seus dados. Isso significa que seu Provedor de 
 Serviços de Internet (ISP) e terceiros não podem ver quais sites você visita ou quais dados você envia e recebe online. Uma VPN funciona como 
-um filtro que transforma todos os seus dados em "rabiscos". Mesmo que alguém apreendesse dados, seria inútil. 
+um filtro que transforma todos os seus dados em "rabiscos". Mesmo que alguém apreendesse dados, seria inútil.
