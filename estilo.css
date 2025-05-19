@@ -11,9 +11,23 @@ body {
     line-height: 1.6;
 }
 
-header,
-section,
-footer {
+html, body {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100%;
+}
+
+section {
+    scroll-snap-align: start;
+    height: 100vh;  	/* faz cada seção ocupar a tela inteira */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header, section, footer {
     padding: 60px 20px;
     text-align: center;
 }
@@ -22,13 +36,18 @@ header {
     background-color: #1b1440;
 }
 
-header h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+header img {
+    width: 250px;
 }
 
-.cta-button {
-    background-color: #32fcd4;
+header h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: rgb(247, 226, 40);
+}
+
+#butao {
+    background-color: #71dae7;
     border: none;
     color: #000;
     padding: 10px 20px;
@@ -40,7 +59,7 @@ header h1 {
     display: inline-block;
 }
 
-.cards {
+#cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -48,43 +67,58 @@ header h1 {
     margin-top: 40px;
 }
 
-.card {
-    background-color: #3f328f;
+#card {
+    background-color: rgb(63, 50, 143);
     padding: 20px;
     width: 300px;
     border-radius: 10px;
 }
 
-.section-title {
-    font-size: 1.8rem;
+#conteudos, #atuacao, #conexoes {
+    background-color: blanchedalmond; 
+    color: black;
+}
+
+#atuacao #cards, #conexoes #cards {
+    color: white;
+}
+
+#oquee #card, #beneficios #card {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+#conteudos #butao {
+    background-color: rgb(63, 50, 143); 
+    color: white;
+    width: 150px;
+}
+
+#conteudos-linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#botoes-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#conteudos img, #agradecimentos img {
+    width: 250px;
+}
+
+#categorias {
+    font-size: 25px;
     margin-bottom: 30px;
-}
-
-.info-box {
-    background-color: #32fcd4;
-    color: #000;
-    padding: 20px;
-    margin-top: 30px;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-.form-container {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
 }
 
 footer {
     background-color: #1b1440;
     color: #aaa;
-    font-size: 0.8rem;
+    font-size: 12px;
 }
