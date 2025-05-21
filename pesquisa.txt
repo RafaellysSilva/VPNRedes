@@ -1,17 +1,84 @@
 Uma VPN, ou Rede Privada Virtual (Virtual Private Network), é uma tecnologia que cria uma conexão segura e encriptada entre o seu dispositivo e 
 a internet, protegendo a sua privacidade e anonimato online. 
+VPN significa Rede Privada Virtual. É uma tecnologia que cria uma conexão segura e criptografada sobre uma rede menos segura, como a internet.
+
+Objetivo principal: Garantir confidencialidade, integridade e autenticidade dos dados transmitidos.
+
 Ao utilizar uma VPN, o seu tráfego de internet é redirecionado através de um servidor seguro, escondendo o seu endereço IP real e criptografando 
 os dados trocados. 
-
 Uma VPN oculta seu endereço IP deixando que a rede redirecione você por meio de um servidor remoto especialmente configurado executado por um host 
-VPN. Isso significa que se você navegar online com uma VPN, o servidor VPN se tornará a fonte de seus dados. Isso significa que seu Provedor de 
+VPN. 
+Isso significa que se você navegar online com uma VPN, o servidor VPN se tornará a fonte de seus dados. Isso significa que seu Provedor de 
 Serviços de Internet (ISP) e terceiros não podem ver quais sites você visita ou quais dados você envia e recebe online. Uma VPN funciona como 
-/*<<<<<<< HEAD
 um filtro que transforma todos os seus dados em "rabiscos". Mesmo que alguém apreendesse dados, seria inútil.
-=======
-um filtro que transforma todos os seus dados em "rabiscos". Mesmo que alguém apreendesse dados, seria inútil. 
+
+Como Funciona uma VPN
+-Conceito de Túnel (Tunneling)
+O processo de encapsular dados em outro protocolo para transmissão segura. Três componentes:
+Encapsulamento
+Autenticação
+Criptografia
+
+-Criptografia
+Simétrica (ex: AES): mesma chave para criptografar e descriptografar.
+Assimétrica (ex: RSA): usa um par de chaves (pública e privada).
+
+-Componentes de uma Conexão VPN
+Cliente VPN
+Servidor VPN
+Protocolo VPN
+Chave de criptografia
+
+Tipos de VPN
+-VPN de Acesso Remoto
+Permite que usuários individuais se conectem a uma rede corporativa de forma segura pela internet.
+Exemplo: Um funcionário acessando arquivos da empresa de casa.
+-VPN Site-to-Site
+Conecta redes inteiras, como diferentes filiais de uma empresa.
+Exemplo: Matriz e filial compartilhando uma rede segura.
+-VPN Móvel
+Adaptada para conexões instáveis, como as feitas por redes móveis (4G/5G), mantendo a segurança.
+
+Protocolos VPN
+Protocolo	Criptografia	Segurança	Velocidade	Observações
+PPTP	Fraca	Baixa	Alta	Obsoleto e inseguro
+L2TP/IPSec	Forte	Alta	Média	Mais seguro que PPTP
+OpenVPN	Forte (AES-256)	Alta	Alta	Open source e amplamente usado
+IKEv2/IPSec	Forte	Alta	Muito rápida	Ideal para dispositivos móveis
+WireGuard	Forte (ChaCha20)	Muito alta	Muito rápida	Simples e moderno
+
+Vantagens do Uso de VPN
+-Segurança
+Protege dados em redes públicas (ex: Wi-Fi de aeroportos).
+Evita ataques como "man-in-the-middle".
+-Privacidade
+Oculta o endereço IP real do usuário.
+Impede rastreamento de atividades online.
+-Acesso a Conteúdo
+Bypassa restrições geográficas.
+Permite acesso a serviços bloqueados (ex: Netflix EUA, BBC).
+-Trabalho Remoto
+Facilita conexões seguras a redes corporativas.
+
+Desvantagens e Limitações
+-Redução de Velocidade
+Criptografia e distância dos servidores impactam o desempenho.
+-Confiabilidade do Provedor
+VPNs comerciais podem manter logs.
+Algumas podem vender dados.
+=Bloqueio por Serviços
+Alguns sites bloqueiam IPs de VPNs conhecidas.
+
+
+Histórico e Evolução das VPNs
+Década de 1990: Empresas começaram a usar redes privadas para conectar filiais.
+1996: Gurdeep Singh-Pall da Microsoft desenvolveu o PPTP (Point-to-Point Tunneling Protocol), considerado o primeiro protocolo VPN moderno.
+Anos 2000 e 2010: Adoção crescente por usuários domésticos para contornar censura e acessar conteúdos georrestritos.
+Hoje: VPNs são amplamente usadas em ambientes corporativos, por jornalistas, defensores de privacidade e usuários em países com censura.
 
 https://www.kaspersky.com.br/resource-center/definitions/what-is-a-vpn
 https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-vpn
->>>>>>> f8da7aea9eef98c708161ddfab9a18d398ab2198
-*/
+Wikipedia
+WIRED
+FORBES
+avast
