@@ -69,9 +69,16 @@ header h1 {
 
 #card {
     background-color: rgb(63, 50, 143);
-    padding: 20px;
+    padding: 13px;
     width: 300px;
     border-radius: 10px;
+}
+
+#vantagens {
+    background-color: #71dae7;
+    width: 100%;
+    padding: 10px;
+    color: #000;
 }
 
 #conteudos, #atuacao, #conexoes {
